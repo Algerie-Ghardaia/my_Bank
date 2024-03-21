@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  background: #eceff1;
+}
+.container {
+  margin: 0 auto;
+  height: 80px;
+  background: rgb(0, 0, 0);
+  height: 29px;
+  padding-top: 29px;
+}
+.g_dive_Header {
+  background: #273338;
+  margin: 0 auto;
+  height: 76px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+.title {
+  line-height: 34px;
+  font-size: 42px;
+  color: rgb(255, 255, 255);
+}
+
+.logo_login {
+  font-size: 34px;
+  height: 50px;
+  width: 50px;
+  border-radius: 49%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: end;
+}
+.i{
+  margin-right: 10px;
+  margin-top: 7px;
+}
+p{
+  margin-right: 40px;
+  padding-top: 4px;
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+}
+.section_container{
+  margin: 0 auto;
+  width: 55%;
+  color: black;
+ height: 402px;
+ padding-top: 30px;
+ 
+}
+
+.name_montant{
+  display: flex;
+  height: 60px;
+  width: 90%;
+  /* background-color: #1976d2; */
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 7px;
+  margin: 0 auto;
+
+}
+
+.operations{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 45px;;
+  width: 100%;
+  background-color: #ffffff;
+}
+.model_operations{
+  width: 87%;
+  margin: 0 auto;
+}
+.date_soci{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 27px;
+  margin-left: 20px;
+}
+.description{
+  margin-left: 30px;
+}
+
+h1{
+  margin-left: 14px;
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 300;
+}
+
+button{
+  background-color: rgb(255, 255, 255);
+  margin-left: 780px;
+  border: none;
+  padding: 10px 10px;
+  margin-top: 20px;
+}
